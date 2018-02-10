@@ -11,6 +11,7 @@ body {
 	width: 100%;
 	position: relative;
 }
+/*Black_white section*/
 #Black_white {
 	height: 865px;
 	background-color: #eeeeee;
@@ -139,4 +140,119 @@ li {
 	background-color: #303030;
 	margin: 70px 4px 4px 4px;
 	vertical-align: bottom;
+}
+/*Featured_product section*/
+#Featured_product {
+	height: 1193px;
+	background-color: #eeeeee;
+	text-align: center;
+}
+#Featured_product .container {
+	background-color: #ffffff;
+	height: 1193px;
+	position: relative;
+}
+h1.section_title {
+	margin: 0;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 900;
+	font-size: 48px;
+	padding-top: 114px;
+	padding-bottom: 14px;
+	line-height: 1em;
+}
+.section_text p {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 400;
+	font-size: 18px;
+	width: 585px;
+	line-height: 1.5em;
+}
+.gallery {
+	width: 1058px;
+	height: 810px;
+	margin: 0 auto;
+	margin-top: 72px;
+	margin-bottom: 72px;
+	position: relative;
+}
+.gallery_item:first-child {
+	display: inline-block;
+	background-image: url('asset/speaker-pill-white-standard-thrqrtleft.png');
+	background-repeat: no-repeat;
+	width: 692px;
+	height: 387px;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.gallery div:nth-child(2) {
+	display: inline-block;
+	background-image: url('asset/beats-by-dre-studio-red-highdefinition-headphones.png');
+	background-repeat: no-repeat;
+	width: 328px;
+	height: 387px;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+.gallery div:nth-child(3) {
+	display: inline-block;
+	background-image: url('asset/Rectangle.png');
+	background-repeat: no-repeat;
+	width: 328px;
+	height: 387px;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+}
+.gallery div:nth-child(4) {
+	display: inline-block;
+	background-image: url('asset/Casual-Shoes-For-Men-2.png');
+	background-repeat: no-repeat;
+	width: 328px;
+	height: 387px;
+	position: absolute;
+	bottom: 0;
+	left: 364px;
+}
+.gallery_item:nth-child(5) {
+	display: inline-block;
+	background-image: url('asset/tumblr.png');
+	background-repeat: no-repeat;
+	width: 328px;
+	height: 387px;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+}
+/*Hover effect*/
+.cover_bg {
+	display: none;
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+}
+.cover_title {
+  display: none;
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+}
+.gallery_item:hover .cover_bg,
+.gallery_item:hover .cover_title {
+	display: block;
+}
+.cover_bg {
+	background-color: red;
+}
+.cover_title {
+	color: #ffffff;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 900;
+	font-size: 30px;
+	text-align: left;
+	text-decoration: underline;
 }
